@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+	margin:0;	
+	background-color:#d1bfb1;
+	color:#666666;
+	font-family:gulim;
+	font-size:20px;
+	text-align:center;
+}
+header{
+	height:160px;
+	line-height:160px;
+	border:1px dotted #666666;
+	font-size:40px;
+	background-color:white;
+}
+section{	
+	display:flex;
+	justify-content:center;
+	width:100%;
+	height:100%;
+}
+caption{
+	padding-bottom:1em;
+}
+table,th,td{
+	margin:2em;
+	padding:1.3em;
+	border-collapse:collapse;
+	border:1px solid #1c1c1c;
+}
+td:hover{
+	background-color:white;
+}
